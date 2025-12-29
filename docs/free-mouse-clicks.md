@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Free Mouse Clicks"
 permalink: /free-mouse-clicks
 ---
