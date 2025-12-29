@@ -4,3 +4,7 @@
 
 layout: home
 ---
+I started contributing in 2025, after figuring out how to use GitHub Pages.
+My first contribution is adding an option to ydotool that speeds up mouse clicks.
+Look it up [here](https://aeconoclast.github.io/free-mouse-clicks.html)
+
