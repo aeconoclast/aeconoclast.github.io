@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-repository: aeconoclast.github.io
+repository: aeconoclast/aeconoclast.github.io
 repository_url: https://github.com/aeconoclast/aeconoclast.github.io
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
