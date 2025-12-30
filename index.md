@@ -4,11 +4,13 @@
 
 
 layout: default
-title: "Aejaz's GitHub Blog"
+title: "Aejaz's GitHub Pages Blog"
 permalink: /
 ---
 
 I started contributing in 2025.
 My first contribution is adding an option to ydotool that speeds up mouse clicks.
-Look it up [here](https://aeconoclast.github.io/free-mouse-clicks.html)
+Details about it are [here](https://aeconoclast.github.io/free-mouse-clicks.html).
+
+As I make more contributions, and work on other projects, I'll update this page.
 
