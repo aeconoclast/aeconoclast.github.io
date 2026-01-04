@@ -4,3 +4,13 @@
 ---
 
 @import "{{ site.theme }}";
+
+section#downloads a.leftspanlink {
+  float: left;
+  background-position: 0 0;
+}
+
+section#downloads a.rightspanlink {
+  float: right;
+  background-position: -275px 0;
+}
