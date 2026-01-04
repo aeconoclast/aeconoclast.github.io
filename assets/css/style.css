@@ -14,3 +14,11 @@ section#downloads a.rightspanlink {
   float: right;
   background-position: -275px 0;
 }
+
+section#downloads a.leftspanlink:hover {
+  background-position: 0 -197px;
+}
+
+section#downloads a.rightspanlink:hover {
+  background-position: -275px -197px;
+}
