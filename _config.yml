@@ -18,7 +18,7 @@ title: Aejaz Hussain's GitHub Pages Blog
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   A journal of my Open Source contributions
-url: aeconoclast.github.io
+# url: aeconoclast.github.io
 baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://aeconoclast.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -33,6 +33,8 @@ plugins:
 
 repository: aeconoclast/aeconoclast.github.io
 repository_url: https://github.com/aeconoclast/aeconoclast.github.io
+show_downloads: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
