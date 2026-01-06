@@ -34,6 +34,7 @@ plugins:
 repository: aeconoclast/aeconoclast.github.io
 repository_url: https://github.com/aeconoclast/aeconoclast.github.io
 show_downloads: true
+empty_page: https://aeconoclast.github.io/empty_page.html
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
