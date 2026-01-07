@@ -12,12 +12,12 @@ Link that site from my LinkedIn profile.
 ### Progress Thu 20 Nov 2025 21:11
 #### Summary of work done today
 1. Created a new repository called [glum-giggle](https://github.com/aeconoclast/glum-giggle) as suggested by the [Quickstart guide](https://docs.github.com/en/pages/quickstart).
-    i. ***A new repository is required to publish a GitHub Pages site. Unfortunately, when one attempts to create a new repo, GitHub asks to give a new name. So I gave the name as glum-giggle. This was the first problem with this exercise.***
+    - ***A new repository is required to publish a GitHub Pages site. Unfortunately, when one attempts to create a new repo, GitHub asks to give a new name. So I gave the name as glum-giggle. This was the first problem with this exercise.***
 2. The minimal theme used in the Quickstart Guide linked back to repo glum-giggle which I didn't want.
 3. I changed to the Cayman theme which still showed the link to glum-giggle.
 4. The only way to get rid of the link seems to customize the Jekyll theme. To do that, I
-    i. Installed ruby.
-    ii. Created a local copy of the repo.
+    - Installed ruby.
+    - Created a local copy of the repo.
 5. By that time, GitHub started showing this warning: *"GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before January 04, 2026, or be restricted from account actions."*
 
 **Next Steps**
@@ -118,7 +118,7 @@ The Merlot theme looked better than the Minima theme.
 
 The default "Minima" theme is set in the Gemfile. Like this:
 
-```
+```ruby
 This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.0"
 ```
@@ -129,14 +129,14 @@ Mon 29 Dec 2025 23:29
 ---
 There seems to be no way to have the index.html file in the root folder, and use any Jekyll theme. It can be in the /docs folder, and then it will use the Minima theme. The only way to have the index.html file and use a theme is to put it in the docs folder.
 
-***Till now, I had been publishing the site using the *Classic Branches*workflow. It is not recommended. GitHub's QuickStart Guide sets up the Pages site only to fail. It uses the Branches workflow, does not warn that the repo needs to be the same as the site name, uses a default theme where the most prominent link points to the same page. It is a full-fledged project just to change the theme, create a new page, add content.***
+***Till now, I had been publishing the site using the "Classic Branches" workflow. It is not recommended. GitHub's QuickStart Guide sets up the Pages site only to fail. It uses the Branches workflow, does not warn that the repo needs to be the same as the site name, uses a default theme where the most prominent link points to the same page. It is a full-fledged project just to change the theme, create a new page, add content.***
 
-After looking into documentations, other options, and custom html, I changed from the *Classic Branches*workflow to the GitHub Actions workflow. GitHub Actions Workflow file added. One problem - the UI from the Settings -> Pages section opens into the main branch, and there was no way to commit the new config file to a different branch. Had to add the file manually to a new branch.
+After looking into documentations, other options, and custom html, I changed from the *Classic Branches* workflow to the GitHub Actions workflow. GitHub Actions Workflow file added. One problem - the UI from the Settings -> Pages section opens into the main branch, and there was no way to commit the new config file to a different branch. Had to add the file manually to a new branch.
 
 The GitHub Actions Workflow build gave this message: 
 > The github-pages gem can't satisfy your Gemfile's dependencies. If you want to use a different Jekyll version or need additional dependencies, consider building Jekyll site with GitHub Actions: https://jekyllrb.com/docs/continuous-integration/github-actions/
 
-So added this line in Gemfile: ``gem "jekyll", "~> 4.2"``
+So added this line in Gemfile: `` gem "jekyll", "~> 4.2"``
 
 Tue 30 Dec 2025 01:52
 ---
