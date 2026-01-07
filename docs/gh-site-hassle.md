@@ -20,7 +20,7 @@ Link that site from my LinkedIn profile.
     - Created a local copy of the repo.
 5. By that time, GitHub started showing this warning: *"GitHub users are now required to enable two-factor authentication as an additional security measure. Your activity on GitHub includes you in this requirement. You will need to enable two-factor authentication on your account before January 04, 2026, or be restricted from account actions."*
 
-**Next Steps**
+#### Next Steps
 
 1. Improve the added content.
 2. Finish Jekyll customization, and get the GitHub pages site up and running, this weekend. To do this, follow the long series of instructions here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
@@ -52,7 +52,7 @@ Tue 23 Dec 2025 01:06
 ---
 To get the home page (https://aeconoclast.github.io/glum-giggle) to work, I changed the publishing source from the /docs directory to the /root directory. That allows the home page to function but the jekyll rendering and theme don't work. I added an index.html file to the root directory so the page is not empty.
 
-**Next Steps**
+#### Next Steps
 
 1. I have to find a way to make the home page work.
 2. After the home page renders properly, link the free mouse clicks page from the home page.
@@ -63,7 +63,7 @@ I couldn't find a way to make the site work as intended. Publishing from /docs d
 
 In the end, I gave up with trying to make the site work smoothly with Jekyll. The problem was that Jekyll would not render the index.html file or the home page would result in a 404 error. Then there were the configuration issues where I changed the *baseurl* tag from /docs to / and then change the publishing source from /docs to /root. It became a crapshoot for hours.
 
-**Next Steps**
+#### Next Steps
 
 1. Home page stays in custom index.html with Jekyll interference.
 2. Home page links to all the other pages in the Pages site.
@@ -82,7 +82,7 @@ Right now, publishing from /docs opens the [free-mouse-clicks](https://aeconocla
 
 If I publish from /root, both pages work, but I'd have to write all the html manually. Publishing from /docs allows me to write only markdown which the Jekyll Gem processes to create an html file for the site.
 
-**Next Step**
+#### Next Step
 
 Create a new repo with name aeconoclast.github.io.
 
@@ -91,8 +91,7 @@ Thu 25 Dec 2025 00:59
 So I created a new repository called aeconoclast.github.io, using the Quickstart guide. The page at https://aeconoclast.github.io works, uses the tactile Jekyll theme. This means I now have 2 repositories from where I am publishing to GitHub Pages: aeconoclast.github.io and glum-giggle.
 Unfortunately, the pages from glum-giggle became plain html after a few changes to _config.yml to connect them to aeconoclast.github.io. There is probably a theme mixup that is causing this.
 
-The question now is what to do about this scenario. I now have 3 pages: https://aeconoclast.github.io, https://aeconoclast.github.io/glum-giggle, and https://aeconoclast.github.io/glum-giggle/free-mouse-clicks.
-Configuring a custom domain seems to be too much of a hassle right now. Especially, since I still have to get the theme to work. Or write my own custom HTML and CSS.
+The question now is what to do about this scenario.Configuring a custom domain seems to be too much of a hassle right now. Especially, since I still have to get the theme to work. Or write my own custom HTML and CSS.
 Thinking over this, I could use these pages as below:
 1. https://aeconoclast.github.io is the about page, the contact page. It has something about me and it links to glum-giggle.
 2. https://aeconoclast.github.io/glum-giggle is the GitHub blog page, the page that links to the actual blog content.
@@ -105,7 +104,7 @@ Adding an AI-generated index.html file with CSS in styles.css, and then a link t
 
 Unfortunately, this might be actually too much work for a blog. All html and css would have to be written and maintained by me. I'd spend more time working with the system than actually adding the content. So back to GitHub Pages, and its themes it is.
 
-Problems with GitHub Pages
+#### Problems with GitHub Pages
 
 1. There is no reason to have the gh-pages branch. Nobody wants to publish from a separate branch.
 2. The [testing](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) has its own problems. 
@@ -114,7 +113,7 @@ Problems with GitHub Pages
 
 Mon 29 Dec 2025 13:24
 ---
-The Merlot theme looked better than the Minima theme.
+The Merlot theme looks better than the Minima theme. I think, I am attracted by its banner.
 
 The default "Minima" theme is set in the Gemfile. Like this:
 
@@ -173,7 +172,7 @@ After completing that, the build ran successfully . This created one page as des
 
 The index.html page becomes the home and https://aeconoclast.github.io works at last. The only caveat: If I am making changes to the CSS, I have to change index.html separately. That's small price to pay for using the theme. The bigger price was all the time spent trying to actually getting the site to work. Now we know that the publishing using the "classic" Branches does not work.
 
-**Next Step**
+#### Next Step
 
 Add links to the blue part of the banner. These are part of *section id=downloads* in the CSS file.
 
@@ -186,13 +185,13 @@ Tue 6 Jan 2026 23:54
 ---
 I added an empty page to the site, and configured it as "empty_page". This is called in default.html, and linked at the top as "Next" now. When more pages are added to the blog, this "Next" link needs to be link to those.
 
-**Next Step**
+#### Next Step
 
 Write logic in default.html to use empty page link only if there are no more pages to the blog. This will make the blog act like a website with each page navigated to using the Next link.
 Write one more page to check if this logic works.
 
-Last Words?
----
+### Last Words?
+
 This could go on and on till I find a way to stop doing this or outsource it. Stopping here since this site is up and running.
 
 ### References
