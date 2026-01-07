@@ -128,6 +128,7 @@ Mon 29 Dec 2025 23:29
 ---
 There seems to be no way to have the index.html file in the root folder, and use any Jekyll theme. It can be in the /docs folder, and then it will use the Minima theme. The only way to have the index.html file and use a theme is to put it in the docs folder.
 
+#### Use GitHub Actions 
 ***Till now, I had been publishing the site using the "Classic Branches" workflow. It is not recommended. GitHub's QuickStart Guide sets up the Pages site only to fail. It uses the Branches workflow, does not warn that the repo needs to be the same as the site name, uses a default theme where the most prominent link points to the same page. It is a full-fledged project just to change the theme, create a new page, add content.***
 
 After looking into documentations, other options, and custom html, I changed from the *Classic Branches* workflow to the GitHub Actions workflow. GitHub Actions Workflow file added. One problem - the UI from the Settings -> Pages section opens into the main branch, and there was no way to commit the new config file to a different branch. Had to add the file manually to a new branch.
