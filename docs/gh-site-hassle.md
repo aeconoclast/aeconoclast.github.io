@@ -7,7 +7,6 @@ permalink: /gh-site-hassle
 # The Hassle Of Creating This Site
 ## Plan
 Create a GitHub pages site, and add articles about the tech stuff that I am involved with.
-Link that site from my LinkedIn profile.
 
 ### Progress Thu 20 Nov 2025 21:11
 #### Summary of work done today
