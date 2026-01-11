@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Empty Page
+title: "Empty Page"
 permalink: /empty
-show_downloads = false
+show_downloads: false
+tags: "non-content"
 ---
 
 # Sorry! Empty Page!

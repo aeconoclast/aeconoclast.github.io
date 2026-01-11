@@ -2,7 +2,7 @@
 layout: default
 title: "The Hassle Of Creating This Site"
 permalink: /gh-site-hassle
-tags: article
+tags: "article"
 ---
 
 # The Hassle Of Creating This Site
