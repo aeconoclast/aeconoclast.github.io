@@ -37,19 +37,29 @@
         </div>
       </header>
 
-
+      {% if site.show_downloads %}
         <section id="downloads">
           <span class="inner">
             <a href="{{ site.url }}" class="zip">HOME</a><a href="{{ site.empty_page }}" class="tgz">Next</a>
           </span>
         </section>
-
+      {% else %}
+        <div id="no-downloads">
+          <span class="inner">
+          </span>
+        </div>
+      {% endif %}
 
       <span class="banner-fix"></span>
 
 
       <section id="main_content">
         {{ content }}
+        {% for page in site.pages %}
+            {% if page.tags contains 'non-content' %}
+              <a href = "https://aeconoclast.github.io/{{ page.path }}">{{ page.title }}</a>
+            {% endif %}
+        {% endfor %}
       </section>
 
       <footer>
