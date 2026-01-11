@@ -37,7 +37,7 @@
         </div>
       </header>
 
-      {% if site.show_downloads %}
+      {% if page.show_downloads %}
         <section id="downloads">
           <span class="inner">
             <a href="{{ site.url }}" class="zip">HOME</a><a href="{{ site.empty_page }}" class="tgz">Next</a>
@@ -56,8 +56,9 @@
       <section id="main_content">
         {{ content }}
         {% for page in site.pages %}
-            {% if page.tags contains 'non-content' %}
-              <a href = "https://aeconoclast.github.io/{{ page.path }}">{{ page.title }}</a>
+            {% if page.tags does not contain 'non-content' %}
+              <a href = "https://aeconoclast.github.io/{{ page.url }}">{{ page.title }}</a>
+              <br>
             {% endif %}
         {% endfor %}
       </section>

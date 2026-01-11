@@ -3,6 +3,7 @@ layout: default
 title: "Free Mouse Clicks"
 permalink: /free-mouse-clicks
 tags: "article"
+show_downloads: true
 ---
 # Free Mouse Clicks
 
