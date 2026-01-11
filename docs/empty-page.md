@@ -2,6 +2,7 @@
 layout: default
 title: Empty Page
 permalink: /empty
+show_downloads = false
 ---
 
 # Sorry! Empty Page!

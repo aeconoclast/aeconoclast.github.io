@@ -2,6 +2,7 @@
 layout: default
 title: "Free Mouse Clicks"
 permalink: /free-mouse-clicks
+tags: article
 ---
 # Free Mouse Clicks
 
@@ -36,8 +37,10 @@ A few points on how to use this part of the tool are below.
 5. The daemon and the client need _sudo_ permissions. Without those permissions, the tool does not work.
 
 For certain tasks, you might not want the automated clicks. I workaround this by finding the ydotool process, and sending SIGSTOP like this:
+
 ``sudo kill -STOP <pid>``
 To continue the process, send SIGCONT:
+
 ``sudo kill -CONT <pid>``
 
 I found that 10000 clicks lasts about 6 hours. Change this number as you wish.
@@ -53,3 +56,5 @@ One of the tasks my PC let me do was the automation of the mouse click. There ar
  
 ## 22-12-2025 Update
 My additions have been [merged](https://github.com/ReimuNotMoe/ydotool/commit/708e96ff27e381a8c549418a9d34cdde12305317), and are now part of the [ydotool package](https://github.com/ReimuNotMoe/ydotool). Download and use ydotool from its original repository to enjoy rapid clicking!
+
+[page.title]({{site.url}})
