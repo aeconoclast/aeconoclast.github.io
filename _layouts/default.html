@@ -40,7 +40,7 @@
       {% if page.show_downloads %}
         <section id="downloads">
           <span class="inner">
-            <a href="{{ site.url }}" class="zip">HOME</a><a href="{{ site.empty_page }}" class="tgz">Next</a>
+            <a href="{{ site.url }}" class="zip">HOME</a><a href="{{ site.links_page }}" class="tgz">Next</a>
           </span>
         </section>
       {% else %}
@@ -58,7 +58,7 @@
         {% if page.show_links %}
           {% for page in site.pages %}
               {% if page.tags != 'non-content' %}
-                <a href = "{{ site.url }}/{{ page.url }}">{{ page.title }}</a>
+                <a href = "{{ site.url }}{{ page.url }}">{{ page.title }}</a>
                 <br>
               {% endif %}
           {% endfor %}

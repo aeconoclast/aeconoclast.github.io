@@ -3,8 +3,7 @@ layout: default
 title: "The Hassle Of Creating This Site"
 permalink: /gh-site-hassle
 tags: "article"
-show_downloads: true
-show_links: false
+show_downloads:
 ---
 
 # The Hassle Of Creating This Site
@@ -200,4 +199,5 @@ This could go on and on till I find a way to stop doing this or outsource it. St
 ### References
 
 This [blog]( https://vickiboykis.com/2015/05/30/man-do-static-sites-suck./) talks about how the Jekyll-based Github pages site is neither easy nor straightforward to create.
-Another [blog](https://www.jessesquires.com/blog/2021/11/01/how-to-start-a-blog/) instructs on how to create a blog. This [page](https://jessesquires.github.io/)) shows how the site created using GitHub's Quickstart Guide looks like.
+
+Another [blog](https://www.jessesquires.com/blog/2021/11/01/how-to-start-a-blog/) instructs on how to create a blog. This [page](https://jessesquires.github.io/) shows how the site created using GitHub's Quickstart Guide looks like.
