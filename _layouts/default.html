@@ -55,12 +55,14 @@
 
       <section id="main_content">
         {{ content }}
-        {% for page in site.pages %}
-            {% if page.tags != 'non-content' %}
-              <a href = "https://aeconoclast.github.io/{{ page.url }}">{{ page.title }}</a>
-              <br>
-            {% endif %}
-        {% endfor %}
+        {% if page.url == "aejaz-articles" %}
+          {% for page in site.pages %}
+              {% if page.tags != 'non-content' %}
+                <a href = "https://aeconoclast.github.io/{{ page.url }}">{{ page.title }}</a>
+                <br>
+              {% endif %}
+          {% endfor %}
+        {% endif %}
       </section>
 
       <footer>

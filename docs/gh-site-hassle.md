@@ -4,6 +4,7 @@ title: "The Hassle Of Creating This Site"
 permalink: /gh-site-hassle
 tags: "article"
 show_downloads: true
+show_links: false
 ---
 
 # The Hassle Of Creating This Site
