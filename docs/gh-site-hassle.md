@@ -3,7 +3,7 @@ layout: default
 title: "The Hassle Of Creating This Site"
 permalink: /gh-site-hassle
 tags: "article"
-show_downloads:
+show_downloads: true
 ---
 
 # The Hassle Of Creating This Site
