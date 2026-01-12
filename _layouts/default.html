@@ -55,10 +55,10 @@
 
       <section id="main_content">
         {{ content }}
-        {% if page.url == "aejaz-articles" %}
+        {% if page.show_links %}
           {% for page in site.pages %}
               {% if page.tags != 'non-content' %}
-                <a href = "https://aeconoclast.github.io/{{ page.url }}">{{ page.title }}</a>
+                <a href = "{{ site.url }}/{{ page.url }}">{{ page.title }}</a>
                 <br>
               {% endif %}
           {% endfor %}
