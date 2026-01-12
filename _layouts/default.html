@@ -56,7 +56,7 @@
       <section id="main_content">
         {{ content }}
         {% for page in site.pages %}
-            {% if page.tags does not contain 'non-content' %}
+            {% if page.tags != 'non-content' %}
               <a href = "https://aeconoclast.github.io/{{ page.url }}">{{ page.title }}</a>
               <br>
             {% endif %}

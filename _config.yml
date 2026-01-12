@@ -33,7 +33,6 @@ plugins:
 
 repository: aeconoclast/aeconoclast.github.io
 repository_url: https://github.com/aeconoclast/aeconoclast.github.io
-show_downloads: true
 empty_page: "https://aeconoclast.github.io/empty"
 
 # Exclude from processing.
