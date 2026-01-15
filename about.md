@@ -11,3 +11,5 @@ Perhaps something will be written about here.
 If not, this page will be merged with the [home page]({{site.url}}) some time in the future.
 
 Have a fabulamazantastic life!
+
+[{{ page.title }}]({{ site.url }}/{{ page.url }})

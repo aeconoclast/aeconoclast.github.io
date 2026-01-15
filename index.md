@@ -4,7 +4,7 @@
 
 
 layout: default
-title: "Aejaz's GitHub Pages Blog"
+title: "Welcome to Aejaz's Blog"
 permalink: /
 ---
 

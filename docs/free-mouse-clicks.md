@@ -37,9 +37,10 @@ A few points on how to use this part of the tool are below.
    - 10000 in the above command is the number of clicks.
 5. The daemon and the client need _sudo_ permissions. Without those permissions, the tool does not work.
 
-For certain tasks, you might not want the automated clicks. I workaround this by finding the ydotool process, and sending SIGSTOP like this:
+For certain tasks, you might not want the automated clicks. I work around this by finding the ydotool process, and sending SIGSTOP like this:
 
 ``sudo kill -STOP <pid>``
+
 To continue the process, send SIGCONT:
 
 ``sudo kill -CONT <pid>``

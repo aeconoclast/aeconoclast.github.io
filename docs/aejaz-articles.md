@@ -13,3 +13,4 @@ show_links: true
 
 
 
+[{{ page.title }}]({{ site.url }}/{{ page.url }})

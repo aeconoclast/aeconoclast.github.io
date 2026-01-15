@@ -11,7 +11,7 @@ show_downloads: true
 Create a GitHub pages site, and add articles about the tech stuff that I am involved with.
 
 ### Progress Thu 20 Nov 2025 21:11
-#### Summary of work done today
+#### Summary of work done
 1. Created a new repository called [glum-giggle](https://github.com/aeconoclast/glum-giggle) as suggested by the [Quickstart guide](https://docs.github.com/en/pages/quickstart).
     - ***A new repository is required to publish a GitHub Pages site. Unfortunately, when one attempts to create a new repo, GitHub asks to give a new name. So I gave the name as glum-giggle. This was the first problem with this exercise.***
 2. The minimal theme used in the Quickstart Guide linked back to repo glum-giggle which I didn't want.
@@ -201,3 +201,5 @@ This could go on and on till I find a way to stop doing this or outsource it. St
 This [blog]( https://vickiboykis.com/2015/05/30/man-do-static-sites-suck./) talks about how the Jekyll-based Github pages site is neither easy nor straightforward to create.
 
 Another [blog](https://www.jessesquires.com/blog/2021/11/01/how-to-start-a-blog/) instructs on how to create a blog. This [page](https://jessesquires.github.io/) shows how the site created using GitHub's Quickstart Guide looks like.
+
+[{{ page.title }}]({{ site.url }}/{{ page.url }})
