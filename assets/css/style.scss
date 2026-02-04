@@ -12,3 +12,38 @@ body{
 header h2{
   padding-top: 4px;
 }
+
+section#downloads,
+div#no-downloads {
+/*  background: transparent url(../images/bg-ramp.jpg) center 171px no-repeat;*/
+  background-image: none;
+
+}
+
+div.shell {
+  width: 1200px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  div.shell {
+    display: block;
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+}
+
+span.banner-fix {
+  background-image: none;
+}
+
+footer {
+  background-image: none;
+}
+
+.header-level-1 {
+  border-bottom: .2em double #d3ccc1;
+  border-left: .2em double #d3ccc1;
+  border-right: .2em double #d3ccc1;
+
+}
