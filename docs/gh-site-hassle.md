@@ -147,7 +147,7 @@ Tue 30 Dec 2025 01:57
 ---
 Now I broke GitHub. The GitHub Actions [build](https://github.com/aeconoclast/aeconoclast.github.io/actions/runs/20586136002) failed with this message:
 
-> **Failed to save: <h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.</p>0zCJTaQAAAAAtMqAK6fApSKvnxU0VWvAJQ0hHRURHRTE3MTYARWRnZQ==**
+> **Failed to save: <h2>Our services aren't available right now</h2><p>We're working to restore all services as soon as possible. Please check back soon.**
 
 Will try later.
 
