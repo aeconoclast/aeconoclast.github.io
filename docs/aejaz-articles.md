@@ -2,7 +2,7 @@
 layout: default
 title: "Aejaz's GitHub Articles"
 permalink: /aejaz-articles
-show_downloads: false
+show_downloads: true
 tags: "non-content"
 show_links: true
 ---
