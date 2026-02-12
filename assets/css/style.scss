@@ -13,7 +13,12 @@ header h2{
   padding-top: 4px;
 }
 
-div.shell 
+section#downloads,
+div#no-downloads {
+  background-image: none;
+}
+
+div.shell {
   width: 1200px;
 }
 
