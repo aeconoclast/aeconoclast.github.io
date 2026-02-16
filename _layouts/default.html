@@ -56,6 +56,12 @@
                 <br>
               {% endif %}
           {% endfor %}
+          {% for post in site.posts %}
+              {% if page.tags != 'non-content' %}
+                <a href = "{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                <br>
+              {% endif %}
+          {% endfor %}
         {% endif %}
       </section>
 
