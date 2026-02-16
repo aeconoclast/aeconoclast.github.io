@@ -15,5 +15,3 @@ show_links: true
 
 [{{ page.title }}]({{ site.url }}/{{ page.url }})
 
-
-[{{ page.title }}]({{ site.url }}/{{ post.url }})
